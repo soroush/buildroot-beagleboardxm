@@ -6,4 +6,4 @@ compiler:
   - gcc
 script:
   - make beagleboardxm_defconfig
-  - make
+  - make -j1
