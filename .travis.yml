@@ -1,0 +1,10 @@
+before_install:
+ - sudo apt-get update -qq
+ - sudo apt-get install -qq g++ git wget
+ - autoreconf
+language: cpp
+compiler:
+  - gcc
+script:
+  - make beagleboardxm_defconfig
+  - make
