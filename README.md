@@ -1,6 +1,8 @@
 BeagleBoard xM Buildroot Configuration
 ============================
 
+[![Build Status](https://travis-ci.org/soroush/buildroot-beagleboardxm.svg)](https://travis-ci.org/soroush/buildroot-beagleboardxm)
+
 This project aims to provide and maintain a minimal [buildroot](http://buildroot.org/) configuration for
 the [BeagleBoard-xM](http://beagleboard.org/beagleboard-xm) (single board computer). In order to prepare a configuration to build, run
 
